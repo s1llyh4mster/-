@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- header -->
     <header>
         <div class="logo">ArchArt</div>
 
@@ -26,6 +27,71 @@
         </nav>
         </div>
     </header>
+
+    <!-- Заявка -->
+
+    <section class="request">
+        <div class="container">
+            <div class="row justify-content-center gap-5 request-content">
+                <div class="col-lg-8">
+                    <div class="request-head text-center">
+                        <span>Обсудим проект</span>
+                        <h2>Начнём ваш будущий дом?</h2>
+                        <p>Оставьте заявку - и мы свяжемся с вами в течение рабочего дня, чтобы обсудить задачу, сроки и
+                            стоимость.</p>
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Ваше имя</label>
+                            <input type="text" class="form-control" id="name" placeholder="Иван" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Телефон</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="type" class="form-label">Тип проекта</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Выберите...</option>
+                                <option>Частный дом</option>
+                                <option>Квартира/интерьер</option>
+                                <option>Коммерческое помещение</option>
+                                <option>Ландшафт</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="area" class="form-label">Площаль, м2</label>
+                            <input type="number" class="form-control" id="area" placeholder="150">
+                        </div>
+                        <div class="mb-3">
+                            <label for="comment" class="form-label">Комментарий</label>
+                            <textarea class="form-control" id="comment"
+                                placeholder="Кратко о задаче и пожеланиях"></textarea>
+                        </div>
+                        <button type="submit" class="form-btn btn btn-primary">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 footer-text">
+                    © 2026 ArchArt. Все права защищены.
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
