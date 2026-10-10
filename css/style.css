@@ -22,3 +22,96 @@ header {
 .nav-link:hover{
     color: rgb(85, 85, 85)
 }
+
+/* Заявка */
+.request{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 60px 0;
+    background-color: #ece7df;
+}
+
+.request-head{
+    color: #1a1a1a;
+    margin-bottom: 32px;
+}
+
+.request-head span{
+    display: inline-block;
+    font-size: 24px;
+    color: #c9a86a;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+}
+
+.request-head h2{
+    font-size: 24px;
+    line-height: 1.15;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.request-head p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(132, 132, 132, 0.78);
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.request-content form{
+    background-color: #a7a7a7;
+    border: 1px solid #3a3a3a;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+}
+
+.form-label{
+    font-size: 16px;
+    color: #6e6e6e;
+    margin-bottom: 6px;
+}
+
+.form-control,
+.form-select{
+    padding: 12px 14px;
+    font-size: 14px;
+    color: #535353;
+    background-color: #cccccc;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+}
+
+.form-control::placeholder{
+    color: #3a3a3a;
+}
+
+.form-control:focus,
+.form-select:focus{
+    color: #2d2d2d;
+    background-color: #868686;
+    border-color: #363533;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    padding: 15px 48px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    background: #3e3d3b;
+    color: #9b9b9b;
+    transition: background 0.25s;
+}
+
+.form-btn:hover,
+.form-btn:focus{
+    border: 1px solid #3a3a3a;
+    background: #b1b1b1;
+    color: #454545;
+}
