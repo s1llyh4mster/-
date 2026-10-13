@@ -23,6 +23,17 @@ header {
     color: rgb(85, 85, 85)
 }
 
+/* баннер */
+
+.banner-bg {
+    background-image: url('../images/banner.jpg');
+    background-size: auto;
+    background-position: center;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    height: 700px;
+}
+
 /* Заявка */
 .request{
     display: flex;
