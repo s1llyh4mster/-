@@ -55,6 +55,22 @@ header {
     border-radius: 10px;
 }
 
+/* команда */
+
+.team-bg {
+    background-color: #ece7df;
+}
+
+.team-text {
+    color: #c9a86a;
+}
+
+.team-img {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+}
+
 /* Заявка */
 .request{
     display: flex;
